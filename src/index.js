@@ -12,4 +12,4 @@ app.get("/:number", (req, res) => {
   const number = req.params.number;
   res.send(`${number * 2}`);
 });
-app.listen(8083, () => console.log("Server is connected"));
+app.listen(8083, () => console.log("Server is connected!!"));
